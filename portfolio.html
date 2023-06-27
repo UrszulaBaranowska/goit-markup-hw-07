@@ -19,37 +19,31 @@
   </head>
   <body>
     <header>
-      <div class="header container">
-        <a class="logo" href="index.html"
-          ><span class="logo__color">Web</span>Studio</a
+      <div class="container header-container">
+        <a class="logostyle" href="index.html"
+          ><span class="logostyle__first">Web</span>Studio</a
         >
         <nav>
           <menu class="header__nav">
             <li>
-              <a class="header__nav--active" href="index.html">Agencja</a>
+              <a class="header__nav--links" href="index.html">Agencja</a>
             </li>
             <li>
-              <a class="header__nav--link" href="./portfolio.html">Portfolio</a>
+              <a class="header__nav--active" href="./portfolio.html">Portfolio</a>
             </li>
-            <li>
-              <a class="header__nav--link" href="#">Kontakt</a>
-            </li>
+            <li><a class="header__nav--links" href="#">Kontakt</a></li>
           </menu>
         </nav>
         <div class="header__contact">
-          <a
-            class="header__nav header__contact--color"
-            href="mailto:info@devstudio.com"
-            ><svg class="header__contact--icons" width="16" height="12">
+          <a class="header__nav--links header__contact--color" href="mailto:info@devstudio.com"
+            ><svg class="header__contact--icon" width="16" height="12">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
             <span>info@devstudio.com</span>
           </a>
-          <a
-            class="header__nav header__contact--color"
-            href="callto:+48111111111"
-          >
-            <svg class="header__contact--icons" width="16" height="12">
+
+          <a class="header__nav--links header__contact--color" href="callto:+48111111111">
+            <svg class="header__contact--icon" width="16" height="12">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
             <span>+48 111 111 111</span></a
@@ -230,9 +224,9 @@
     <div class="container">
     <div class="footer-sections">
       <div>
-      <a class="logo" href="index.html">
-        <span class="logo__color">Web</span
-        ><span class="logo__color--second">Studio</span></a
+      <a class="logostyle" href="index.html">
+        <span class="logostyle__first">Web</span
+        ><span class="logostyle__second">Studio</span></a
       >
       <address>
         <ul class="footer__list--contact">
@@ -240,7 +234,7 @@
             <a class="footer__list--address1">m. Warszawa, Aleje Jerozolimskie 21,</a>
           </li>
           <li class="footer__list--contact-gap">
-            <a class="address2">info@example.com</a>
+            <a class="footer__list--address2">info@example.com</a>
           </li>
           <li class="footer__list--contact-gap">
             <a class="footer__list--address2">+48 111 111 111</a>
@@ -251,28 +245,28 @@
       <div class="footer-social">
         <h5 class="footer-title__first">DOŁĄCZ DO NAS</h5>
         <ul class="footer__list--social">
-          <li class="social-icon-group__list">
+          <li class=social-icons__list>
             <a class="footer__list--icon" href="#">
               <svg class="footer__list--symbol" width="20" height="20">
                 <use href="./images/icons.svg#icon-instagram-2"></use>
               </svg>
             </a>
           </li>
-          <li class="social-icon-group__list">
+          <li class=social-icons__list>
             <a class="footer__list--icon" href="#">
               <svg class="footer__list--symbol" width="20" height="20">
                 <use href="./images/icons.svg#icon-twitter-1"></use>
               </svg>
             </a>
           </li>
-          <li class="social-icon-group__list">
+          <li class=social-icons__list>
             <a class="footer__list--icon" href="#">
               <svg class="footer__list--symbol" width="20" height="20">
                 <use href="./images/icons.svg#icon-facebook-1"></use>
               </svg>
             </a>
           </li>
-          <li class="social-icon-group__list">
+          <li class=social-icons__list>
             <a class="footer__list--icon" href="#">
               <svg class="footer__list--symbol" width="20" height="20">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
@@ -291,9 +285,9 @@
             name="signup-email"
             id="newsletter" 
             placeholder="E-mail" 
-            class="newsletter__mail"/>
+            class="signup-newsletter__mail"/>
           </label>
-          <button type="submit" class="newsletter__button">
+          <button type="submit" class="signup-newsletter__button">
             Zapisz się
             <svg width="24" height="24">
               <use href="./images/icons.svg#icon-person-black-2"></use>
