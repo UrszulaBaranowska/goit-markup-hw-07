@@ -1,5 +1,5 @@
 /* <=====GLOBAL=====> */
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -44,10 +44,11 @@ li {
   list-style-type: none;
   padding: 0;
 }
-.container {
+ .container {
   width: 1200px;
   margin: 0 auto;
-}
+} */
+
 .header-container {
   display: flex;
   justify-content: space-between;

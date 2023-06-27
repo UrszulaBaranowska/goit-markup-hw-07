@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.min.css"}
+{"version":3,"sources":["../sass/components/_reset.scss","../sass/components/_global-styles.scss"],"names":[],"mappings":"AAAA,EACE,6BAAA,CAAA,qBAAA,CACA,QAAA,CACA,SAAA,CAEF,sBAQE,UAAA,CAEF,QACE,qBAAA,CAEF,IACE,aAAA,CACA,cAAA,CACA,WAAA,CAEF,MAEE,oBAAA,CACA,SAAA,CC1BF,KACE,+BAAA,CACA,uBAAA,CACA,cAAA,CAEF,WACE,YAAA,CACA,aAAA","file":"main.min.css"}
