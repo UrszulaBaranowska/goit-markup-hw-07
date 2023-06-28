@@ -733,8 +733,6 @@ footer {
   background-color: var(--second-white);
   color: var(--main-blue);
 }
-*/
-
 .portfolio-filter__buttons {
   font-family: inherit;
   color: var(--second-black);
@@ -773,14 +771,6 @@ footer {
   margin-left: 0;
   list-style: none;
 }
-/* .portfolio-projects {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-  margin-left: 0;
-} */
 .portfolio-projects__item {
   margin: 0 auto;
   transition-duration: 250ms;
@@ -844,5 +834,7 @@ footer {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+
+*/
 
 /* <=====modal window with form=====> */
