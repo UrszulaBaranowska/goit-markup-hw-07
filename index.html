@@ -481,50 +481,50 @@
           stroke-width="2"
         />
         </svg></button>
-        <form>
+        <form class="form">
           <h3 class="form__title"> Zostaw swoje dane w formularzu poniżej</h3>
-  <div class="username">
+  <div class="form__username">
     <label class="form__label-order" for="username">
       Imię
       <input type="text" name="username" id="username" required class="form__input-order"/>
     </label>
   </div>
-  <div class="phone-number">
+  <div class="form__phone-number">
     <label class="form__label-order" for="phone-number">
       Telefon
       <input type="tel" name="phone-number" id="phone" required class="form__input-order"/>
     </label>
   </div>
-  <div class="email-addres">
+  <div class="form__email-addres">
     <label class="form__label-order" for="mail">
       Email
       <input type="email" name="mail" id="mail" required class="form__input-order"/>
     </label>
   </div>
-  <div class="form">
-    <label class="form__opinion--text form__label-order" required for="opinion">
+  <div class="form__opinion-text">
+    <label class="form__label-order" required for="opinion">
       Komenatrz
-      <textarea name="feedback" id="opinion" rows="5" placeholder="Wprowadź tekst" class="form__opinion--textarea"></textarea>
+      <textarea name="feedback" id="opinion" rows="5" placeholder="Wprowadź tekst" class="form__opinion-textarea"></textarea>
     </label>
     </div>
     <label class="form__acceptance-label" for="acceptance">
       <input
-        class="form__checkbox--hidden"
+        class="form__acceptance-label--checkbox-hidden"
         type="checkbox"
         name="acceptance"
         id="acceptance"
         required
       />
-      <svg class="form__checkbox--icon-unchecked" width="16" height="15">
+      <svg class="form__acceptance-label--checkbox-unchecked" width="16" height="15">
         <use href="./images/icons.svg#icon-checkbox"></use>
       </svg>
-      <svg class="form__checkbox--icon" width="16" height="15">
+      <svg class="form__acceptance-label--checkbox-icon" width="16" height="15">
         <use href="./images/icons.svg#icon-tick"></use>
       </svg>
-      <p class="form__acceptance-text">
+      <p class="form__acceptance-label--text">
         Oświadczam iż akceptuję
-        <a class="form__acceptance-link" href="">Regulamin</a> i
-        <a class="form__acceptance-link" href="">Politykę Prywatności.</a>
+        <a class="form__acceptance-label--link" href="">Regulamin</a> i
+        <a class="form__acceptance-label--link" href="">Politykę Prywatności.</a>
       </p>
     </label>
     <button type="submit" class="form__button">Wyślij</button>
